@@ -39,21 +39,38 @@ body {
 
 .stix p:nth-child(1) {
     color: red;
+    font-size: medium;
     }
     .stix p:nth-child(2) {
     color: green;
+    font-size:large;
     }
     .stix p:nth-child(3) {
     color: orange;
+    font-size:x-large;
     }
     .stix p:nth-child(4) {
     color: rgb(107, 0, 128);
+    font-size:xx-small;
     }
     .stix p:nth-child(5) {
     color: rgb(251, 0, 255);
+    font-size:xx-large;
     }
     .stix p:nth-child(6) {
         color: rgb(13, 0, 255);
+        font-size:x-small;
         }
     
+    .umn1 {
+        position: absolute;
+        top: 200px;
+        left: 950px;
+    }
+
+    .umn2 {
+        position: absolute;
+        top: 200px;
+        left: 1100px;
+    }
     
