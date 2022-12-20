@@ -47,3 +47,4 @@ function makeStairs() {
         steps[i].innerHTML = 'Блок номер ' + i;
     }
 }
+

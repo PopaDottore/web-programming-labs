@@ -36,3 +36,24 @@ body {
     top: 300px;
     left: 30px;
 }
+
+.stix p:nth-child(1) {
+    color: red;
+    }
+    .stix p:nth-child(2) {
+    color: green;
+    }
+    .stix p:nth-child(3) {
+    color: orange;
+    }
+    .stix p:nth-child(4) {
+    color: rgb(107, 0, 128);
+    }
+    .stix p:nth-child(5) {
+    color: rgb(251, 0, 255);
+    }
+    .stix p:nth-child(6) {
+        color: rgb(13, 0, 255);
+        }
+    
+    
