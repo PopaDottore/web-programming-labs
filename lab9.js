@@ -65,3 +65,11 @@ document.addEventListener("keydown", function (event) {
     if (event.altKey) 
         alert("Был нажат ALT")
 });
+
+let tex = document.querySelectorAll('input[type="text"]');
+for (let i = 0; i<tex.length; i++){
+    tex[i].addEventListener("change", function (event) {
+        let result = document.querySelector('#output');
+        result.innerText = event.target.value;
+    });
+}
