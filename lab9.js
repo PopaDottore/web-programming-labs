@@ -31,3 +31,26 @@ function clickMe4(button) {
     else
         button.innerHTML = 'Нажми меня'
 }
+
+function showCoords(event) {
+    event.target.innerHTML = 'x = ' + event.offsetX + ', y = ' + event.offsetY;
+}
+
+window.addEventListener('DOMContentLoaded', function() {
+    let coords = document.querySelector('#coords');
+    coords.addEventListener('mousemove', showCoords);
+})
+document.addEventListener("keydown", function (event) {
+    if (event.ctrlKey) 
+        alert("Был нажат CTRL")
+});
+
+document.addEventListener("keydown", function (event) {
+    if (event.shiftKey) 
+        alert("Был нажат SHIFT")
+});
+
+document.addEventListener("keydown", function (event) {
+    if (event.altKey) 
+        alert("Был нажат ALT")
+});
